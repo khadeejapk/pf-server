@@ -1,0 +1,19 @@
+SOFTWARE PATTERNS :
+
+    MVC - Model View Controller
+     
+        Modal - part which interacts with db through data modals
+        View - part of app that interacts with user
+        Controller - part which handles overall controll of app. which holds the logic  of the entire app 
+            
+
+    MVT - Model View Template   
+
+        Modal - part which interacts with db through data modals
+        View - part which handles both app logic and user interactions
+        Template - graphical interface for user 
+
+    When to Use Context
+          Context is designed to share data that can be considered “global” for a tree of React components,
+           such as the current authenticated user, theme, or preferred language.
+      
